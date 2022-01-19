@@ -65,6 +65,6 @@ export const updateAccount =  (req,res, next) => {
 
     account.accountName = req.body.accountName;
     console.log(`accountName has been updated to ${req.body.accountName}.`);
-    res.send(account);
+    res.send(accounts);
 
 };
