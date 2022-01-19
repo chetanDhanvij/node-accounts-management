@@ -2,13 +2,13 @@
   "name": "dnb",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
     "prebuild": "tslint -c tslint.json -p tsconfig.json --fix",
     "build": "tsc",
     "prestart": "npm run build",
-    "start": "npx tsc && nodemon dist/app.js"
+    "start": "npx tsc && nodemon dist/server.js"
   },
   "author": "",
   "license": "ISC",

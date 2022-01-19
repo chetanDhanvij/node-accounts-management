@@ -17,8 +17,5 @@ app.use('/accounts', accountsRoutes);
 
 app.use(apiErrorHandler);
 
-app.get("/", (req, res) => {
-    res.send("Hello");
-})
 
 export default app;

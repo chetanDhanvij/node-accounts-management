@@ -1,10 +1,7 @@
 // import request from 'supertest'
 // import app from './app'
-
-
 // describe("POST /accounts", () => {
 //   describe("Given a valid Account Details", () => {
-
 //     test("should respond with a 200 status code", async () => {
 //       const response = await request(app).post("/accounts").send({
 //         accountName: "chetan Dhanvij",
@@ -14,7 +11,6 @@
 //     })
 //       expect(response.statusCode).toBe(200)
 //     })
-
 //     // test("should specify json in the content type header", async () => {
 //     //   const response = await request(app).post("/users").send({
 //     //     username: "username",
@@ -30,7 +26,6 @@
 //     //   expect(response.body.userId).toBeDefined()
 //     // })
 //   })
-
 // //   describe("when the username and password is missing", () => {
 // //     test("should respond with a status code of 400", async () => {
 // //       const bodyData = [
@@ -44,5 +39,4 @@
 // //       }
 // //     })
 // //   })
-
 // })
