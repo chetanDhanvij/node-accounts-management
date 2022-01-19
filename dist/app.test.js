@@ -1,5 +1,5 @@
-// import request from 'supertest'
-// import app from './app'
+// const app = require("./app");
+// const supertest = require("supertest");
 // describe("POST /accounts", () => {
 //   describe("Given a valid Account Details", () => {
 //     test("should respond with a 200 status code", async () => {

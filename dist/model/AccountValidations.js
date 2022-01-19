@@ -1,4 +1,4 @@
-import { iso4217 } from "../data/iso4217.js";
+const { iso4217 } = require("../data/iso4217");
 export const validateAccountNumber = (accountNumber) => {
     return accountNumber.length === 11;
 };

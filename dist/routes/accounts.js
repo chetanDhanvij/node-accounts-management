@@ -1,5 +1,5 @@
-import express from 'express';
-import { getAccounts, createAccount, getAccount, deleteAccount, updateAccount } from '../controllers/accounts.js';
+const express = require("express");
+import { getAccounts, createAccount, getAccount, deleteAccount, updateAccount } from '../controllers/accounts';
 const router = express.Router();
 router.get('/', getAccounts);
 router.post('/', createAccount);

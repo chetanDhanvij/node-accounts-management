@@ -1,6 +1,6 @@
-import express from 'express';
+const express = require("express");
 
-import { getAccounts, createAccount, getAccount, deleteAccount, updateAccount } from '../controllers/accounts.js';
+import { getAccounts, createAccount, getAccount, deleteAccount, updateAccount } from '../controllers/accounts';
 
 const router = express.Router();
 

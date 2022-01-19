@@ -1,7 +1,7 @@
-import { v4 as uuid } from 'uuid';
-import { ApiError } from '../error/ApiError.js';
-import { Account } from '../model/Account.js';
-import { validateAccountNumber, validateAccountType, validateCurrency } from '../model/AccountValidations.js';
+import { Account } from 'src/model/Account';
+const { v4: uuid } = require('uuid');
+const { ApiError }  = require("../error/ApiError");
+const { validateAccountNumber, validateAccountType, validateCurrency }  = require("../model/AccountValidations");
 
 let accounts: Account[] = [{
     id: "test",

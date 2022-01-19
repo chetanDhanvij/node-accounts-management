@@ -1,11 +1,10 @@
-import express from "express";
-import bodyParser from "body-parser";
+const express = require("express");
+const bodyParser = require("body-parser");
+const accountsRoutes = require("./routes/accounts");
+const { apiErrorHandler } = require("/error/api-error-handler");
+const cors = require("cors");
 
-import accountsRoutes from "./routes/accounts.js"
-import { apiErrorHandler } from "./error/api-error-handler.js";
-import cors from "cors";
-
-const app = express();
+export const app = express();
 
 
 app.use(cors());
@@ -16,6 +15,3 @@ app.use(bodyParser.json());
 app.use('/accounts', accountsRoutes);
 
 app.use(apiErrorHandler);
-
-
-export default app;

@@ -1,4 +1,5 @@
-import { ApiError } from "./ApiError.js";
+const { ApiError }  = require("./ApiError");
+
 
 export function apiErrorHandler(err, req, res, next) {
   if (err instanceof ApiError) {

@@ -1,6 +1,5 @@
-// import request from 'supertest'
-// import app from './app'
-
+// const app = require("./app");
+// const supertest = require("supertest");
 
 // describe("POST /accounts", () => {
 //   describe("Given a valid Account Details", () => {
