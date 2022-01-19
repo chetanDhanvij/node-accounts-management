@@ -1,3 +1,4 @@
+import { iso4217 } from "../data/iso4217.js";
 export const validateAccountNumber = (accountNumber) => {
     return accountNumber.length === 11;
 };
@@ -22,7 +23,7 @@ export const validateAccountType = (accountType) => {
     return ["SAVING", "CHECKING"].includes(accountType);
 };
 export const validateCurrency = (currency) => {
-    return ["NOK", "USD"].includes(currency);
+    return iso4217.includes(currency);
 };
 export const validateAccount = (account) => {
     return validateAccountNumber(account.accountNumber) &&
